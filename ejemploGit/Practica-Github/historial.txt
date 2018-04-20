@@ -1,0 +1,63 @@
+    1  df -h
+    2  sudo su -
+    3  ifconfig
+    4  ping 8.8.8.8
+    5  sudo su
+    6  mkdir ejemploGit
+    7  cd ejemploGit
+    8  git clone https://github.com/augustoMA/Practica-Github.git
+    9  ls
+   10  echo "Hola Github"> saludar.txt
+   11  ls -l
+   12  tree
+   13  git status
+   14  cd Practica-Github/
+   15  git status
+   16  git add saludar.txt
+   17  tree
+   18  mkdir saludar.txt
+   19  tree
+   20  cd saludar.txt
+   21  git status
+   22  c
+   23  tree
+   24  cd ejemploGit/Practica-Github/
+   25  git add saludar.txt
+   26  git config user.name "AugustoMA" 
+   27  git config user.email "augustoalviggi@gmail.com"
+   28  ls
+   29  tree
+   30  git status
+   31  mkdir ejemploGit
+   32  cd ejemploGit/
+   33  git clone https://github.com/augustoMA/Practica-Github.git
+   34  cd Practica-Github
+   35  tree
+   36  echo "Hola repositorio"> saludar.txt
+   37  ls
+   38  tree
+   39  git status
+   40  git add saludar.txt
+   41  git config user.name "AugustoMa"
+   42  git config user.email "augustoalviggi@gmail.com"
+   43  git push original master
+   44  git push origin master
+   45  git config user.name "augustoMA"
+   46  git config user.email "augustoalviggi@gmail.com"
+   47  git push origin master
+   48  git status
+   49  git commit -m "hola"
+   50  git push origin master
+   51  mkdir apuntes 
+   52  cd apuntes
+   53  echo " ">enunciado.txt
+   54  echo " ">solucion.txt
+   55  git status
+   56  tree
+   57  cd ..
+   58  git status
+   59  git add apuntes/
+   60  git status
+   61  git commit -m "hola2"
+   62  git push origin master
+   63  history > historial.txt
